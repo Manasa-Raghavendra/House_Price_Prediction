@@ -89,6 +89,3 @@ GitHub: https://github.com/Manasa-Raghavendra
 
 ---
 
-Maharaja Institute of Technology, Mysore
-
-GitHub: Manasa-Raghavendra
