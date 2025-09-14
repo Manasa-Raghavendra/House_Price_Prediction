@@ -1,7 +1,7 @@
-# 🏠 House Price Prediction  
+# 🏡 House Price Prediction
 
-This project predicts **Boston housing prices** using machine learning regression models.  
-It provides both **single prediction** and **batch prediction (via CSV)** through an interactive **Streamlit web app**.  
+This project uses **Linear Regression** on the **Boston Housing Dataset** to predict house prices.  
+It also includes an interactive **Streamlit web app** for making single and batch predictions.
 
 ---
 
@@ -38,38 +38,56 @@ The project uses the **Boston Housing Dataset**, which includes features such as
 - **Pandas & NumPy** – for data preprocessing  
 
 ---
+## 📂 Project Structure
+House_Price_Prediction/
+│── app.py                     # Streamlit application
+│── HousingData.csv            # Dataset
+│── boston_linear_regression.pkl # Trained model
+│── linear_feature_meta.json   # Metadata for features
+│── requirements.txt           # Dependencies
+│── README.md                  # Project documentation
+---
 
 ## ▶️ Installation & Running the Project
 
-### 1️⃣ Clone the repository
-```bash
+### 1. Clone the repository
 git clone https://github.com/Manasa-Raghavendra/House_Price_Prediction.git
 cd House_Price_Prediction
-2️⃣ Create a virtual environment (recommended)
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate   # On Linux/Mac
-venv\Scripts\activate      # On Windows
-3️⃣ Install dependencies
-bash
-Copy code
-pip install -r requirements.txt
-If you don’t have a requirements.txt file, manually install dependencies:
 
-bash
-Copy code
+### 2. Create a virtual environment (recommended)
+python -m venv venv
+# On Linux/Mac
+source venv/bin/activate
+# On Windows
+venv\Scripts\activate
+
+### 3. Install dependencies
+pip install -r requirements.txt
+
+If you don’t have a requirements.txt file, install manually:
 pip install streamlit scikit-learn pandas numpy
-4️⃣ Run the Streamlit app
-bash
-Copy code
+
+### 4. Run the Streamlit app
 streamlit run app.py
+
 After running, open the local URL shown in the terminal (default: http://localhost:8501) to access the app.
 
-📌 Author
-👩‍💻 Manasa Raghavendra
+---
 
-Department of Artificial Intelligence
+## 📊 Example Usage
+- Enter housing feature values manually for **single prediction**.  
+- Upload a CSV file for **batch predictions**.  
+
+---
+
+## 👩‍💻 Author
+**Manasa Raghavendra**  
+Department of Artificial Intelligence  
+Maharaja Institute of Technology, Mysore  
+
+GitHub: https://github.com/Manasa-Raghavendra
+
+---
 
 Maharaja Institute of Technology, Mysore
 
