@@ -32,15 +32,16 @@ The project uses the **Boston Housing Dataset**, which includes features such as
 ---
 
 ## 🛠️ Tech Stack
-- Python 3.8+  
-- Streamlit  
-- Scikit-learn  
-- Pandas, Numpy  
+- **Python** 3.8+  
+- **Streamlit** – for interactive UI  
+- **Scikit-learn** – for machine learning model  
+- **Pandas & NumPy** – for data preprocessing  
 
 ---
 
-## ▶️ How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Manasa-Raghavendra/House_Price_Prediction.git
-   cd House_Price_Prediction
+## ▶️ Installation & Running the Project
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Manasa-Raghavendra/House_Price_Prediction.git
+cd House_Price_Prediction
